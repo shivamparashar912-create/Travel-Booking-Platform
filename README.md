@@ -14,3 +14,21 @@ A comprehensive, full-stack travel booking web application designed for seamless
 * **Frontend:** JSP, HTML, CSS, JavaScript
 * **Database:** MySQL (JDBC)
 * **APIs:** Google Gemini 1.5 Flash, Razorpay
+## 📂 Project Structure
+```text
+📦 Travel-Booking-Platform
+ ┣ 📂 src
+ ┃ ┗ 📂 main
+ ┃   ┣ 📂 java/com/Travel
+ ┃   ┃ ┣ 📂 config       (Database Configuration)
+ ┃   ┃ ┣ 📂 controller   (Java Servlets & API logic)
+ ┃   ┃ ┣ 📂 dao          (Data Access Objects for MySQL)
+ ┃   ┃ ┗ 📂 model        (Data Models like Flight.java)
+ ┃   ┗ 📂 webapp
+ ┃     ┣ 📂 WEB-INF      (Deployment descriptor web.xml)
+ ┃     ┣ 📜 dashboard.jsp
+ ┃     ┣ 📜 index.jsp
+ ┃     ┣ 📜 login.jsp
+ ┃     ┗ 📜 results.jsp
+ ┣ 📜 pom.xml            (Maven Dependencies)
+ ┗ 📜 README.md
